@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repositorio no GitHub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img id="img" src="./GitHub-Mark/PNG/GitHub-Mark-Light-120px-plus.png" alt="Logo GitHub">
+    <form style="display: flex;">
+        <h2>Liste os repositórios de um user no GitHub.</h2>
+        <div class="style_input">
+            <input type="text" required>
+            <label>Insira o user</label>
+            <span class="error"></span>
+        </div>
+        <button type="submit">Pesquisar</button>
+    </form>
+
+    <div class="table" style="display: none;">
+        <h2>User '<span class="span__name_user"></span>', possui os seguintes repositórios: </h2>
+        <table>
+            <tr>
+                <th class="titleNum">Num</th>
+                <th class="titleRep">Repositórios</th>
+            </tr>
+        </table>
+
+        <button id="back">Pesquisar outro</button>
+        
+    </div>
+    <p><a href="https://github.com/casettamariana/" target="_blank">by: casettamariana</a></p>
+
+    <script src="./script.js"></script>
+</body>
+</html>
