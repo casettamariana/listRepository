@@ -170,6 +170,7 @@ input:valid ~ label {
 }
 
 table td a{
+    
     min-width: max-content;
     max-width: 60vh;
     width: max-content;
@@ -192,6 +193,7 @@ table td a{
 }
 
 table tr{
+    text-align: start;
     display: grid;
     grid-template-areas: "num rep";
     grid-template-rows: none;
@@ -220,7 +222,7 @@ table tr{
 .nomeRepositorio{
     grid-area: rep;
     align-self: center;
-    justify-self: center;
+    justify-self: start;
 }
 
 .table table tr td.num{
